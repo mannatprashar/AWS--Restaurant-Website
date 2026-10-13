@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron & Sage | Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Saffron <span>& Sage.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#reservation" class="nav-btn">Book a Table</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">GOOD FOOD. GOOD MOOD.</p>
+            <h1>Where Every<br>Meal Tells a Story.</h1>
+            <p class="hero-text">
+                Discover delicious flavours, fresh ingredients
+                and unforgettable dining experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="btn">Explore Menu</a>
+                <a href="#reservation" class="btn btn-outline">
+                    Reserve a Table
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80"
+                alt="Elegant restaurant dining table">
+        </div>
+
+        <div class="about-content">
+            <p class="tagline">A LITTLE ABOUT US</p>
+            <h2>More Than Just a Meal</h2>
+            <p>
+                At Saffron & Sage, we believe that great food
+                brings people together. Our chefs combine fresh,
+                seasonal ingredients with creativity to serve
+                dishes that make every visit special.
+            </p>
+            <p>
+                From intimate dinners to celebrations with friends,
+                every moment here is made to be remembered.
+            </p>
+            <a href="#menu" class="btn">Discover Our Food</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="section-heading">
+            <p class="tagline">MADE WITH LOVE</p>
+            <h2>Our Signature Menu</h2>
+            <p>Handpicked favourites, prepared fresh every day.</p>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+                    alt="Creamy pasta">
+                <div class="menu-info">
+                    <div class="dish-title">
+                        <h3>Truffle Pasta</h3>
+                        <span>₹349</span>
+                    </div>
+                    <p>Creamy pasta with herbs and rich truffle flavour.</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80"
+                    alt="Grilled salmon with vegetables">
+                <div class="menu-info">
+                    <div class="dish-title">
+                        <h3>Grilled Special</h3>
+                        <span>₹499</span>
+                    </div>
+                    <p>A beautifully grilled chef's special with vegetables.</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                    alt="Gourmet burger">
+                <div class="menu-info">
+                    <div class="dish-title">
+                        <h3>Classic Burger</h3>
+                        <span>₹299</span>
+                    </div>
+                    <p>A juicy burger with fresh toppings and crispy fries.</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+                    alt="Chocolate cake">
+                <div class="menu-info">
+                    <div class="dish-title">
+                        <h3>Chocolate Delight</h3>
+                        <span>₹199</span>
+                    </div>
+                    <p>Rich chocolate cake for the perfect sweet ending.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Special Offer Banner -->
+    <section class="special">
+        <div class="special-content">
+            <p class="tagline">A TREAT FOR YOUR TASTE BUDS</p>
+            <h2>Good Food.<br>Beautiful Moments.</h2>
+            <p>Bring your favourite people and let us take care
+               of the rest.</p>
+            <a href="#reservation" class="btn">Plan Your Visit</a>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation section" id="reservation">
+        <div class="section-heading">
+            <p class="tagline">YOUR TABLE AWAITS</p>
+            <h2>Make a Reservation</h2>
+            <p>Fill in your details to plan your next dining experience.</p>
+        </div>
+
+        <form class="reservation-form" action="#" method="get">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Reservation Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" name="guests">
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn submit-btn">
+                Request a Table
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div>
+                <a href="#" class="logo">Saffron <span>& Sage.</span></a>
+                <p>Good food, great company, beautiful memories.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#reservation">Reservations</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Visit Us</p>
+                <p>Jaipur, Rajasthan, India</p>
+                <p>hello@saffronandsage.example</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2026 Saffron & Sage. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
